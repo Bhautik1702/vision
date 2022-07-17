@@ -1,0 +1,42 @@
+.sec3{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    /* max-width: 800px; */
+    width: 100%;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+    background: black;
+    color: white;
+  }
+ .sec3 img {
+    max-width: 100%;
+    /* height: auto; */
+    border-radius: 50%;
+    cursor: pointer;
+  }
+ .sec3 img:hover{
+    transform: scale(1.05);
+  }
+ .sec3 a{
+    color: rgb(32, 236, 9);
+  }
+ .sec3 a:hover{
+    color: aqua;
+  }
+  @media (max-width: 650px) {
+    .sec3 {
+      display: block;
+      font-size: 80%;
+    }
+   .sec3 p {
+      position: relative;
+      /* margin: -3rem 0 2rem 1rem; */
+      margin: 0 10px 0 10px;
+      padding: 1rem;
+      background: rgb(208, 203, 203);
+      color: black;
+    }
+  }

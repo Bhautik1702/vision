@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+body {
+  /* display: flex; */
+  /* justify-content: center; */
+  background-color: rgb(41, 39, 39);
+  background: black;
+}
+
+.container {
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-top: 10px;
+}
+.container .card {
+  width: 308px;
+  position: relative;
+  height: 450px;
+  background: #f0f0f0;
+  padding: 20px 15px;
+  margin: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.5px 10px #e6e6e6;
+  transition: 0.3s ease-in-out;
+  margin-top: 40px;
+  border-radius:0px 0px 15px 15px;
+  /* margin-left:/0px; */
+}
+.container .card .imgBx {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  box-shadow: 0 5px 20px rbga(0, 0, 0, 1.2);
+}
+.container .card .imgBx img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.imgBx:hover img {
+  transform: scale(1.1);
+}
+.container .card:hover {
+  background: linear-gradient(45deg, #a0f403, rgba(144, 244, 3, 0.5));
+}
+.container .card {
+  transition: all 0.5s ease;
+}
+.container .card:hover {
+  transform: scale(1.06);
+}
+h2 {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+p::first-letter{
+    font-size: 40px;
+    color: #a0f403;
+}
+
+p{
+    color: #484846;
+    font-family: "PT Serif", serif;
+    font-size: 17px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Cinzel', serif;;
+}
+span{
+    color: #a0f403;
+}
+
